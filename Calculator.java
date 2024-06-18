@@ -38,11 +38,14 @@ public class Calculator {
                     }
                 }
             }
-            
+            else if(op == 'x'){
+                break;
+            }
             else{
                 System.out.println("Invalid Operator");
             }
             System.out.println("your answer is: "+ans);
-        }        
+        }
+        in.close();        
     }
 }
