@@ -11,7 +11,10 @@ public class Calculator {
 
             if(op == '+' || op == '-' || op == '*' || op == '/'){
 
+                System.out.print("Enter the first number: ");
                 int a = in.nextInt();
+
+                System.out.print("Enter the Second Number: ");
                 int b = in.nextInt();
 
                 if(op=='+'){
@@ -35,6 +38,7 @@ public class Calculator {
                     }
                 }
             }
+            
             else{
                 System.out.println("Invalid Operator");
             }
